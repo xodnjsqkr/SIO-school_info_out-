@@ -8,4 +8,4 @@
 2023년 3월 말에 [나이스 교육정보 개방포털](https://open.neis.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=OPEN17020190531110010104913&infSeq=3)를 활용해서 급식 알리미 디스코드 봇을 만들려고 하니 
 학교 기본정보를 넣어야 xml파일을 받을수 있는데 내가 원하는 학교정보를 찾기 힘들었음
 나중에 다시 나이스 api를 활용하여 만들떄 더 빠르게 학교정보를 얻기위하여
-2023년 4월 2일 기능개발을 시작하여 2023년 4월 4일에 끝남
+2023년 4월 2일 개발을 시작하여 2023년 4월 4일에 끝남

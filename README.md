@@ -6,3 +6,12 @@
 
 ***
 **실행 화면**
+
+시작화면
+<img src="/Users/twpark/Documents/school information out(SIO)/스크린샷 2023-04-05 오후 7.55.03.png">
+
+입력이 있거나 이상한 값이 있는 경우
+<img src="없는 값.png">
+
+**y**입력시 다시 입력하는 창을 출력  
+**n**입력시 종료합니다 출력후 프로그램 종료

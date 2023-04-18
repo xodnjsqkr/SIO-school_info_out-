@@ -25,10 +25,12 @@ while True:
         print("상세 주소를 입력하세요")
         print("주소지 입력 :",end=" ")
         location=input()
-        # 입력한 데이터로 재 검색후 값  출력하는기능 만들어야됨
+        for school,loc in zip(read_file["학교명"],read_file["소재지명"]):
+            if school==school_name and location==loc:
+                    print("\t--- {} 상세정보 ---".format(school_name))
+                    print(read_file.loc[num])
     elif 1==cnt:
-        os.system("tput reset")
-        print("\t--- {}의 상세정보 ---".format(school_name))
+        print("\t--- {} 상세정보 ---".format(school_name))
         print(read_file.loc[num])
     else:
         print("검색되지 않는 학교입니다.")
